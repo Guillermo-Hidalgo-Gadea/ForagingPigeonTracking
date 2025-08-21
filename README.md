@@ -1,6 +1,6 @@
 # Foraging Platforms: Data and Code
 
-This repository accompanies the manuscript “Continuous foraging behavior shapes patch-leaving decisions in pigeons: A 3D tracking study” and contains the analysis code to reproduce results.
+This repository accompanies the manuscript “Continuous foraging behavior shapes patch-leaving decisions in pigeons: A 3D tracking study” and contains data and analysis code to reproduce all results.
 
 ## Data
 
