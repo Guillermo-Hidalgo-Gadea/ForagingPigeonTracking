@@ -1,0 +1,94 @@
+## Experimental Protocol Foraging Platforms
+Step 1: Bootup
+
+-	Put on personal protective equipment
+-	Check BinToAvi process from previous session and monitor activity on task manager (RAM, SSD, CPU, LAN). Restart the PC and log into your own account.
+-	Open Disk D: 
+    -	Each folder should contain .avi and .tpm files. 
+    -	Check length and number of files in detailed view, should be very similar. 
+    -	Check few videos with VLC or windows media player.
+    -	If everything alright, delete .tmp files and leave .avi files.
+    -	If something looks strange, report to Guillermo.
+    -	Double check that all folders contain only .avi, .csv, and .txt files
+-	Turn on arena lights by flipping the turn-switch at the back
+-	Remove the caps from all cameras and place markers in the arena corners. Number 1 goes left next to the door, after that place 2-6 clockwise.
+-	Open SpinView on both PCs and check if all cameras are working. (Tipp: Start Camera 52 on Achira first). 3 cameras should be visible on each PC. Open each camera by double clicking the name. Check if the markers in the arena corners can be identified when zoomed in (Tipp: Enable stretch to fit in right-click-menu). The field of view should include all markers and the lateral bars above the big screens. If a camera needs to be adjusted, contact Guillermo.
+-	Close Spin View
+-	Reference: 
+    -	Close the arena door. Start RecToBin on Calamondin. Once it finishes start RecToBin on Achira (Trigger) to start the recording. Wait 10 seconds and stop recording by pressing Esc on Achira. Wait until programm is finished and close RecToBin on both PCs by pressing Enter.
+    -	On both PCs, open Robocopy. Type in “007” for pigeon number and “reference” for type.
+-	Calibration:
+    -	Remove markers from arena and get calibration board. Leave the arena door open.
+    -	Start RecToBin on Calamondin, then start RecToBin on Achira (Trigger) to start the recording.
+    -	Step into arena with one foot and start to move the board through the arena, slowly and gently. Wave it in big motions to get different angles. Do this for about 30 seconds. (Tipp: Even slower!)
+    -	Stop RecToBin by pressing Esc on Achira. Put Calibration board back into shelf.
+    -	On both PCs, open Robocopy. Type in “007” for pigeon number and “calibration” for type.
+
+Step 2: Set up trial
+-	Put on personal protective equipment
+-	Before the first trial of the day, press in the openings in the cover.
+-	Put on legs if needed. For the board at wall 2 (left) the leg with a black marking has to be in the back left corner, against the wall.
+-	Put mixed peas into every hole. (From the shelf over the lab counter)
+Alternatively, do so after you got the new pigeon.
+-	2.5. Fill out the metadata sheet for the next trial.
+-	Take the pigeon box and the metadata sheet with a pen into pigeon room. 
+-	If you already tested pigeons, feed the pigeon in the small cage according to its weight.
+-	Weigh the jacket and tare the scales.
+-	Get the next pigeon out of the aviary with a net catcher, put on the jacket and weigh it. Document the weight on the metadata sheet. Put the pigeon into the box. 
+-	Reserve a cage with the pigeon’s name tag
+-	Bring the pigeon to the arena room and put down the box on the lab counter. 
+-	Set up the platforms inside the arena, in the counterbalanced position.
+-	Start RecToBin on Calamondin. 
+-	Retrieve the pigeon from box.
+-	Start RecToBin on Achira to trigger the recording.
+-	Gently place the pigeon on the arena-floor.
+-	Start the timer for 20 minutes and document start time on metadata sheet.
+-	Turn off room lights and leave room.
+
+Step 3: Stop Trial (As quickly as possible once timer runs out)
+-	Turn on the room lights
+-	Shut off the arena lights, then stop RecToBin on Achira. 
+-	Put on personal protective equipment
+-	On both PCs, start Robocopy. Type in the pigeon number for pigeon number and “behavior” for type.
+-	Retrieve catcher from shelf.
+-	Enter the arena and catch pigeon using catcher. Put jacket on and pigeon into box.
+-	Bring pigeon to pigeon room and weigh it. Document weight on feeding sheet and check necessary amount of food according to weight. Write that down as well. 
+-	Put the pigeon into a small cage and put the sign for this pigeon on the cage. MAKE SURE THERE IS WATER FOR THE PIGEON. 
+-	If you already tested pigeons, check if the pigeons in isolation were fed. 
+-	Bring previous pigeon back to the aviary and remove sign from cage.
+-	Turn on lights
+-	Use a dry paper napkin to get rid of the bird poop in the arena.
+-	Put foraging platform at wall 5 (right) side on the lab counter. With a “spoon” carefully check each hole for remaining peas. Document the number of peas depleted on the trial sheet in the column “door”. Count the remaining peas and see if they add up. (Or do it anyway else. Be meticulous and introduce some redundancy)
+-	Repeat the same for the other platform and document on the trial sheet in the column “far”
+-	Add the amount of peas depleted on both sides and document it on the trial sheet. Copy the number to the metadata sheet.
+-	Take the broom and carefully clean the arena floor. Document extra peas on the trial sheet and the metadata sheet.
+
+Step 4: Shutdown
+If more pigeons will be tested:
+-	Use a wet paper towel to clean the foraging boards. Be careful not to destroy the cover.
+-	Refill the holes of the foraging platforms with peas for the next trial.
+-	Get new pigeon shortly before Robocopy finishes. (70% means approx. 10 minutes remaining) -> Continue at step 2.5.
+
+If this was today’s last trial:
+-	Put the caps on the cameras in the arena.
+-	Clean the arena using soapy water: Rag and bucket for walls and ceilings, Mop for floor.
+-	Clean the lab counter using a sponge and disinfectant.
+-	Go to the pigeon room and feed the last pigeon, as well as any pigeons that were not trained on that day. Do so according to the feeding sheet.
+-	Put the fed pigeons back into the aviary (after min. 10 minutes of feeding time)
+-	Prepare the platforms for the next day. If there are only two more covers left, make new ones.
+-	Start BinToAvi (located on Data (D:)) on both PCs
+    -	Drag metadata.txt file from D:\ and press Enter
+    -	Drag all .tmp-files for the day and separate them by + signs
+    -	Press Enter
+    -	Check list of files for completeness and errors (on each PC there should be 3 tmp-files per recording; each row should only have one file)
+    -	If an error occurs start from the beginning.
+    -	Press Enter and check if conversion is running
+-	Put food back into counter. Put materials back on shelf. Leave the arena door open.
+-	Last action: Send a picture of metadata sheet into the WhatsApp Group
+-	Turn of all lights.
+
+Data management:
+- For a session recording 2TB must be free in Data (D:)
+- 94GB per recording (tmp)
+- 1660GB per session (tmp)
+- 393GB per session (avi)
