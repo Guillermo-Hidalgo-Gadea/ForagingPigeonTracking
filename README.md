@@ -18,4 +18,4 @@ Raw video data (~9 TB) is available upon request from our university server [ReS
 
 ## Contact
 
-For questions, please open an issue or contact <mailto:Guillermo.HidalgoGadearub.de>.
+For questions, please open an issue or contact <mailto:Guillermo.HidalgoGadea@rub.de>.
