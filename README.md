@@ -10,8 +10,7 @@ Optimal foraging behavior is a key component of successful adaptations to natura
 ## Repository contents
 - `analysis/` – R script and data for reproducing analyses in the paper  
 - `tracking/` – Python scripts for pose estimation and triangulation  
-- `processing/` – Python scripts for behavioral feature extraction  
-- `docs/` – Documentation and usage instructions  
+- `processing/` – Python scripts for behavioral feature extraction   
 
 ## Data availability
 Raw video data (~9 TB) is available upon request from our university server [ReSeeD](https://researchdata.ruhr-uni-bochum.de/en/reseed/).
