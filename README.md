@@ -1,6 +1,7 @@
 # Continuous foraging behavior shapes patch-leaving decisions in pigeons: A 3D tracking study
 
 **Authors:** Guillermo Hidalgo-Gadea, Onur Güntürkün, Mary Flaim, Patrick Anselme
+
 **Status:** Submitting to *Behavior Research Methods, link: tbd
 
 ## Abstract
